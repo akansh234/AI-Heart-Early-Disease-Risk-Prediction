@@ -2,8 +2,7 @@
 
 An intelligent healthcare prediction system that predicts heart disease risk using Machine Learning algorithms and an interactive Streamlit dashboard for prediction and visualization.
 
-Next Gen Project 
-
+Next Gen Project
 
 🚀 Features
 Heart attack and stroke risk prediction using multiple ML models (Logistic Regression, Random Forest, SVM, XGBoost)
@@ -20,15 +19,16 @@ SVM: Effective for high-dimensional data.
 XGBoost: High-performing boosting algorithm with regularization.
 Ensemble: Voting classifier combines strengths of all models for better generalization.
 
+# 🏗️ System Architecture
 
-🏗️ System Architecture
+```text
 Frontend (Streamlit Dashboard)
         ↓
-Machine Learning Model
+Machine Learning Model (scikit-learn/XGBoost)
         ↓
 Prediction Output
         ↓
-Visualization (Plots, GIS)
+Visualization Dashboard (Plots, GIS)
 
 📊 Dataset
 
@@ -47,14 +47,12 @@ Dataset contains:
 - Other clinical features
 
 ⚙️ Tech Stack
-
-- **Frontend**: Streamlit
-- **Machine Learning**: scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn
+- Frontend: Streamlit (Python)
+- Machine Learning: scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn
 
 📈 Evaluation Metrics
 
 The system evaluates model performance using:
-
 - Accuracy
 - Precision
 - Recall
@@ -63,8 +61,6 @@ The system evaluates model performance using:
 - Confusion Matrix
 
 📂 Project Structure
-
-
 AI-Heart-Early-Disease-Risk-Prediction/
 │
 ├── app.py
@@ -75,9 +71,7 @@ AI-Heart-Early-Disease-Risk-Prediction/
 ├── requirements.txt
 └── .gitignore
 
-
 ▶️ Installation & Setup
-
 1. Clone Repository
    ```bash
    git clone https://github.com/GD-Chandrakar/AI-Heart-Early-Disease-Risk-Prediction.git
@@ -107,7 +101,8 @@ GIS-based healthcare analytics
 ...into a unified healthcare prediction system.
 
 👨‍💻 Authors
+
 Gagandeep Chandrakar
-Akansh 
+Akansh
 Palkin
 Arnav
