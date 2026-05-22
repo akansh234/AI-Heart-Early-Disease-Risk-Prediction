@@ -4,24 +4,20 @@ An intelligent healthcare prediction system that predicts heart disease risk usi
 
 # 🚀 Features
 
-✅ Heart Disease Prediction  
-✅ Ensemble Learning  
-✅ Interactive Dashboard  
-✅ ROC Curve & Confusion Matrix  
-✅ Feature Importance Analysis  
-✅ GIS Visualization  
-✅ Real-time Prediction System  
-✅ FastAPI Backend Integration  
-✅ React Frontend Interface  
-
+Heart attack and stroke risk prediction using multiple ML models (Logistic Regression, Random Forest, SVM, XGBoost)
+Ensemble learning for enhanced accuracy
+Interactive Streamlit dashboard for real-time predictions
+Geospatial risk visualization using Folium
+Feature importance analysis to explain model decisions
+ROC curves and confusion matrix for performance evaluation
 
 # 🧠 Machine Learning Models Used
 
-- Logistic Regression
-- Random Forest
-- Support Vector Machine (SVM)
-- XGBoost
-- Voting Classifier (Ensemble Learning)
+- Logistic Regression: Simple and interpretable for baseline classification.
+- Random Forest: Robust and handles nonlinearity well.
+- SVM: Effective for high-dimensional data.
+- XGBoost: High-performing boosting algorithm with regularization.
+- Ensemble: Voting classifier combines strengths of all models for better generalization.
 
 
 # 🏗️ System Architecture
